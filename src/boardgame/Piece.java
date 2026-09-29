@@ -1,14 +1,14 @@
 package boardgame;
 
 public class Piece {
-    protected Position positoin;
+    protected Position position;
     private Board board;
 
     Piece(){
     }
 
     public Piece(Board board) {
-        this.positoin = null;
+        this.position = null;
         this.board = board;
     }
 
