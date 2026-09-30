@@ -17,8 +17,18 @@ public class King extends ChessPiece{
 
     @Override
     public Boolean[][] possibleMoves() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'possibleMoves'");
+        Boolean[][] mat = new Boolean[getBoard().getRows()][getBoard().getColumns()];
+
+        //initializing the matrix with false, since Boolean is not a primitive type
+        for (int i = 0; i < getBoard().getRows(); i++) {
+            for (int j = 0; j < getBoard().getColumns(); j++) {
+                mat[i][j] = false;
+                 }
+            }
+
+
+
+        return mat;
     }
     
 }

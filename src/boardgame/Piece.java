@@ -1,7 +1,5 @@
 package boardgame;
 
-import javax.swing.text.StyledEditorKit.BoldAction;
-
 public abstract class Piece {
     protected Position position;
     private Board board;
