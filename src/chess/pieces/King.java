@@ -15,5 +15,10 @@ public class King extends ChessPiece{
         return "K";
     }
 
+    @Override
+    public Boolean[][] possibleMoves() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'possibleMoves'");
+    }
     
 }
