@@ -1,7 +1,5 @@
 package chess;
 
-import java.util.stream.Gatherer.Integrator;
-
 import boardgame.Board;
 import boardgame.Piece;
 import boardgame.Position;
